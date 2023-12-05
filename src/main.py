@@ -9,7 +9,8 @@ PAGES = {
     'mental.html': Page('Mental Illness', 'mental.html'),
     'stats.html': Page('Mental Illness Statistics', 'stats.html'),
     'hotline.html': Page('Crisis Hotline', 'hotline.html'),
-    'feedback.html': Page('Feedback', 'feedback.html')
+    'feedback.html': Page('Feedback', 'feedback.html'),
+    'froala.html': Page('Froala Editor', 'froala.html'),
 }
 
 def render_template(template_name, **context):
