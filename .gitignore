@@ -2,4 +2,4 @@ templates/*
 app.py
 __pycache__/*
 .venv/*
-.build/*
+build/*
