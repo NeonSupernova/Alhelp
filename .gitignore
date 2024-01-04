@@ -1,4 +1,5 @@
 __pycache__/*
 venv/*
 build/*
-Pipfile.lockPipfile.lock
+Pipfile.lock
+.vscode/
