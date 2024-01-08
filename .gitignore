@@ -3,3 +3,4 @@ venv/*
 build/*
 Pipfile.lock
 .vscode/*
+testing
