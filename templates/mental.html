@@ -8,9 +8,10 @@ body {
 }
 </style> 
 
-{% endblock %}
+{% endblock %}    
 {background-color}
-{% block content %}
+{% block content %} <img src="https://i.imgur.com/4UKVhS4.jpeg" /> 
+<<<<<<< HEAD
 <p style='box-sizing: border-box; margin-top: 0px; margin-bottom: 1rem; color: rgb(33, 37, 41); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;' id="isPasted"><strong style="box-sizing: border-box; font-weight: bolder;"><span style="box-sizing: border-box; font-size: 24px; font-family: Georgia, serif;">Anxiety</span></strong></p>
 
 <p style='box-sizing: border-box; margin-top: 0px; margin-bottom: 1rem; color: rgb(33, 37, 41); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style="box-sizing: border-box; font-family: Georgia, serif; font-size: 14px;">Anxiety is a normal and often adaptive response to stress. It is a natural part of the human experience and can help individuals cope with challenging situations. However, when anxiety becomes excessive, uncontrollable, and interferes with daily life, it may be classified as an anxiety disorder. There are several types of anxiety disorders, each with its own specific characteristics. Here&#39;s an overview:</span></p>
@@ -250,4 +251,13 @@ body {
     <li style="box-sizing: border-box;"><em style="box-sizing: border-box;">Risk of Overdose:</em> In cases of severe substance abuse, there is a heightened risk of overdose, which can be fatal.</li>
 </ul>
 
+=======
+<picture>
+    {% for pic in pics %}
+
+    <source srcset="{{ pic.path }}" sizes="{{ pic.size }}">
+    <img src="{{ pic.path }}" alt="Image">
+    {% endfor %}
+</picture>
+>>>>>>> 631ceae5cdf1c38efbbddfaf677af1d6908920ff
 {% endblock %}
